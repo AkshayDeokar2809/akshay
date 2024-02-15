@@ -1,0 +1,8 @@
+Services:
+  web: 
+    image: centos:6
+    stdin_open: true
+    tty: true
+    hostname: apache
+    domainname: example.com
+    command: /bin/bash
